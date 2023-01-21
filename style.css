@@ -4,9 +4,6 @@
     padding: 0;
   }
   @media (min-width:320px) {
-    .container{
-      width:100%;
-    }
     .form{
       width:80%;
     }
@@ -15,9 +12,6 @@
     }
   }
   @media (min-width:600px) {
-    .container{
-      width:100%;
-    }
     .form{
       width:80%;
     }
@@ -25,12 +19,17 @@
       width:80%;
     }
   }
-  @media (min-width:1025px) {
-    .container{
-      width:100%;
-    }
+  @media (min-width:800px) {
     .form{
-      width:40%;
+      width:60%;
+    }
+    .row{
+      width:80%;
+    }
+  }
+  @media (min-width:1025px) {
+    .form{
+      width:50%;
     }
     .row{
       width:70%;
@@ -38,6 +37,7 @@
   }
   .container{
     margin:auto;
+    width:100%;
   }
   @font-face {
    font-family: myFirstFont;
